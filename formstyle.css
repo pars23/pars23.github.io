@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.formstyle {
+	font-family: 'Fanwood Text', serif;
+	font-size: 10pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #C33;
+	text-decoration: none;
+	background-attachment: fixed;
+	background-image: url(eslim2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
