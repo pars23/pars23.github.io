@@ -3,110 +3,46 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Design</title>
-    <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css"/>
     <link href="css/lightbox.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-
     <style type="text/css">
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
 
-        body, td, th {
-            margin: 0;
-            font-family: 'Futura', serif;
-            color: #f3ebe1;
-        }
+    table {
+        display: block;
+        text-align: center;
+    }
 
-        .Home ul li {
-            font-family: 'Futura', serif;
-            font-weight: bold;
-            text-decoration: none;
-            display: inline;
-            position: relative;
-            /*right: 40px;*/
-            width: 100px;
-            line-height: 30px;
-            padding: 10px;
-            height: 100px;
-            overflow: visible;
+    td {display: inline-block}
 
-        }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Geosans', 'Futura', serif;
+        font-size: 1.5em;
+        margin-bottom: 2.5em;
+        margin-left: 7%;
+    }
 
-        .Home ul{
-            padding-left: 7%;
-        }
+    @media all and (max-width: 440px) {
 
-        .menu {
-            background-image: url(images/bg.png);
-            margin: 0 0 5px 0;
-
-            width: 100%;
-            padding-top: 6px;
-            height: 70px;
-        }
-
-        .container{
-            width: 90%;
-            margin: 0 auto;
-        }
-
-        table {
+        table, tr, td, tbody, td p table div, table table {
+            width: 100% !important;
+            float: left;
+            clear: both;
             display: block;
+            text-align: center;
         }
 
-        td {
-            display: inline-block;
-        }
+        td {margin-top: 10px}
+    }
 
-        a {
-            font-size: 20px;
-        }
-
-        a:link {
-            color: #f3ebe1;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: #f3ebe1;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        a:active {
-            text-decoration: none;
-            text-align: right;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Geosans', 'Futura', serif;
-            font-size: 1.5em;
-            margin-bottom: 2.5em;
-            margin-left: 7%;
-        }
-
-        @media all and (max-width: 440px) {
-
-            table, tr, td, tbody, td p table div, table table {
-                width: 100% !important;
-                float: left;
-                clear: both;
-                display: block;
-                text-align: center;
-            }
-
-            td {
-                margin-top: 10px;
-            }
-        }
-
-        .thumb {
-            border-radius: 50%;
-            border: 5px solid rgba(105,0,0,.2);
-        }
-
-
+    .thumb {
+        border-radius: 50%;
+        border: 5px solid rgba(0,0,106,.4);
+    }
+    
     </style>
 
 </head>
@@ -131,60 +67,60 @@
 <div class="container">
 <table border="0" cellpadding="10" cellspacing="10">
 <tr>
-    <td width="185"><a href="images/thesis1.png" data-lightbox="image-1" data-title="Thesis Page 1">
-        <img class="thumb" src="images/thumbs/thumb_thesis1.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/thesis1.png" data-lightbox="image-1" data-title="Thesis Page 1">
+        <img class="thumb" src="images/thumbs/thumb_thesis1.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/thesis2.png" data-lightbox="image-1" data-title="Thesis Page 2">
-        <img class="thumb" src="images/thumbs/thumb_thesis2.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/thesis2.png" data-lightbox="image-1" data-title="Thesis Page 2">
+        <img class="thumb" src="images/thumbs/thumb_thesis2.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/thesis3.png" data-lightbox="image-1" data-title="Thesis Page 3">
-            <img class="thumb" src="images/thumbs/thumb_thesis3.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/thesis3.png" data-lightbox="image-1" data-title="Thesis Page 3">
+            <img class="thumb" src="images/thumbs/thumb_thesis3.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/s.jpg" data-lightbox="image-1" data-title="Thesis Poster">
-        <img class="thumb" src="images/thumbs/stumb.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/s.jpg" data-lightbox="image-1" data-title="Thesis Poster">
+        <img class="thumb" src="images/thumbs/stumb.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/thesis_logo.png" data-lightbox="image-1" data-title="Thesis Logo">
-        <img class="thumb" src="images/thumbs/thumb_thesis_logo.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/thesis_logo.png" data-lightbox="image-1" data-title="Thesis Logo">
+        <img class="thumb" src="images/thumbs/thumb_thesis_logo.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/encore.png" data-lightbox="image-1" data-title="Encore Logo Design">
-        <img class="thumb" src="images/encore.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/encore.png" data-lightbox="image-1" data-title="Encore Logo Design">
+        <img class="thumb" src="images/encore.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Book_Page_Thesis.png" data-lightbox="image-1" data-title="Book Page Front">
-        <img class="thumb" src="images/thumbs/thumb_Book_Page_Thesis.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Book_Page_Thesis.png" data-lightbox="image-1" data-title="Book Page Front">
+        <img class="thumb" src="images/thumbs/thumb_Book_Page_Thesis.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Movable.png" data-lightbox="image-1" data-title="Movable Digital Poster 1">
-        <img class="thumb" src="images/thumbs/thumb_Movable.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Movable.png" data-lightbox="image-1" data-title="Movable Digital Poster 1">
+        <img class="thumb" src="images/thumbs/thumb_Movable.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/digital_poster2.jpg" data-lightbox="image-1" data-title="Movable Digital Poster 2">
-        <img class="thumb" src="images/thumbs/thumb_digital_poster2.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/digital_poster2.jpg" data-lightbox="image-1" data-title="Movable Digital Poster 2">
+        <img class="thumb" src="images/thumbs/thumb_digital_poster2.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/OSP_Logo.png" data-lightbox="image-1" data-title="OSP Logo Design">
-        <img class="thumb" src="images/OSP_Logo.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/OSP_Logo.png" data-lightbox="image-1" data-title="OSP Logo Design">
+        <img class="thumb" src="images/OSP_Logo.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Roonia_Logo_1.png" data-lightbox="image-1" data-title="Roonia Logo Design 1">
-        <img class="thumb" src="images/Roonia_Logo_1.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Roonia_Logo_1.png" data-lightbox="image-1" data-title="Roonia Logo Design 1">
+        <img class="thumb" src="images/Roonia_Logo_1.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Roonia_Logo_2.png" data-lightbox="image-1" data-title="Roonia Logo Design 2">
-        <img class="thumb" src="images/Roonia_Logo_2.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Roonia_Logo_2.png" data-lightbox="image-1" data-title="Roonia Logo Design 2">
+        <img class="thumb" src="images/Roonia_Logo_2.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Poster_Museum.png" data-lightbox="image-1" data-title="Museum of Contemporary Art Chicago">
-        <img class="thumb" src="images/thumbs/thumb_Poster_Museum.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Poster_Museum.png" data-lightbox="image-1" data-title="Museum of Contemporary Art Chicago">
+        <img class="thumb" src="images/thumbs/thumb_Poster_Museum.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Autistic_World.png" data-lightbox="image-1" data-title="Autistic World">
-        <img class="thumb" src="images/thumbs/thumb_Autistic_World.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Autistic_World.png" data-lightbox="image-1" data-title="Autistic World">
+        <img class="thumb" src="images/thumbs/thumb_Autistic_World.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Bulletin.png" data-lightbox="image-1" data-title="Trivia Night Encore Bulletin">
-        <img class="thumb" src="images/Bulletin.png" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Bulletin.png" data-lightbox="image-1" data-title="Trivia Night Encore Bulletin">
+        <img class="thumb" src="images/Bulletin.png" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/Advent_Final.png" data-lightbox="image-1" data-title="The Advent of Merci">
-        <img class="thumb" src="images/thumbs/thumb_Advent_Final.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/Advent_Final.png" data-lightbox="image-1" data-title="The Advent of Merci">
+        <img class="thumb" src="images/thumbs/thumb_Advent_Final.jpg" width="195" height="195" alt="7"/></a>
     </td>
-    <td width="185"><a href="images/news.jpg" data-lightbox="image-1" data-title="TBD">
-        <img class="thumb" src="images/thumbs/newstumb.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/news.jpg" data-lightbox="image-1" data-title="TBD">
+        <img class="thumb" src="images/thumbs/newstumb.jpg" width="195" height="195" alt="7"/></a>
     </td>
 
-    <td width="185"><a href="images/calendar.jpg" data-lightbox="image-1" data-title="Event">
-        <img class="thumb" src="images/thumbs/calendartumb.jpg" width="175" height="175" alt="7"/></a>
+    <td width="200"><a href="images/calendar.jpg" data-lightbox="image-1" data-title="Event">
+        <img class="thumb" src="images/thumbs/calendartumb.jpg" width="195" height="195" alt="7"/></a>
     </td>
 
 </tr>
@@ -201,8 +137,8 @@
         $('.thumb').each(function () {
            $(this).jqthumb({
                classname: 'thumb',
-               width: '175px',
-               height: '175px',
+               width: '195px',
+               height: '195px',
                zoom: '1'
            });
         });

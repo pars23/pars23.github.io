@@ -1,6 +1,5 @@
 body {
-    background-color: black;
-    background-image: url(../images/background_960_720.png);
+    background-image: url(../images/background2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,4 +15,55 @@ body {
 @font-face {
     font-family: 'JennaSue';
     src: url('../fonts/JennaSue.ttf');
+}
+body, td, th {
+    margin: 0;
+    font-family: 'Futura', serif;
+    color: #4e4641;
+}
+
+.Home ul li {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    /*right: 40px;*/
+    width: 100px;
+    line-height: 30px;
+    padding: 10px;
+    height: 100px;
+    overflow: visible;
+
+}
+
+.Home ul{
+    padding-left: 7%;
+}
+
+.menu {
+    background-image: url(../images/bg.png);
+    margin: 0 0 5px 0;
+
+    width: 100%;
+    padding-top: 6px;
+    height: 70px;
+}
+a {font-size: 20px}
+
+a:link {
+    color: #f3615c;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f3615c;
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline}
+
+a:active {
+    text-decoration: none;
+    text-align: right;
 }
