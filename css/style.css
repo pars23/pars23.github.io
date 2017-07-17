@@ -70,6 +70,8 @@ a:hover {
 a:active {
     text-decoration: none;
     text-align: right;
+    color: #a8443f;
+
 }
 
 #preloader{
