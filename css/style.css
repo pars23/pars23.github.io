@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/background2.png);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -52,16 +53,19 @@ body, td, th {
 a {font-size: 20px}
 
 a:link {
-    color: #f3615c;
+    color: #240d0c;
     text-decoration: none;
 }
 
 a:visited {
-    color: #f3615c;
+    color: #240d0c;
     text-decoration: none;
 }
 
-a:hover {text-decoration: underline}
+a:hover {
+    text-decoration: underline;
+    color: #f3615c;
+}
 
 a:active {
     text-decoration: none;
