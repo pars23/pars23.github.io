@@ -3,3 +3,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/UniversalisADFStd-Regular.otf');
+}
+@font-face {
+    font-family: 'Geosans';
+    src: url('../fonts/GeosansLight.ttf');
+}
+@font-face {
+    font-family: 'JennaSue';
+    src: url('../fonts/JennaSue.ttf');
+}
