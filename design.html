@@ -45,11 +45,27 @@
         border-radius: 50%;
         border: 2px solid rgba(0,0,106,.2);
     }
-    
+
     </style>
 
 </head>
 <body>
+
+<div id="preloader">
+    <div class="spinner sphere" id="sphere">
+
+        <div class="inner">
+
+            <div class="disc"></div>
+
+            <div class="disc"></div>
+
+            <div class="disc"></div>
+
+        </div>
+
+    </div>
+</div>
 
 <div class="menu">
 <div class="Home">
@@ -135,17 +151,25 @@
 <script src="js/lightbox.min.js"></script>
 
 <script>
+    jQuery(document).ready(function ($) {
+        $(window).load(function () {
+            setTimeout(function(){
+                $('.thumb').each(function () {
+                    $(this).jqthumb({
+                        classname: 'thumb',
+                        width: '195px',
+                        height: '195px',
+                        zoom: '1'
+                    });
+                });
+                 var $spinners = $('.spinner').remove();
+                $('#preloader').fadeOut('slow', function () {
+                });
+            },500);
 
-    $(function() {
-        $('.thumb').each(function () {
-           $(this).jqthumb({
-               classname: 'thumb',
-               width: '195px',
-               height: '195px',
-               zoom: '1'
-           });
         });
     });
+
 
 </script>
 
